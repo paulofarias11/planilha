@@ -1,0 +1,74 @@
+:root {
+    --botao-azul: #3333FF;
+    --cor-cabecalho: #213435;
+    --cinza-secundario: #EAEAEA;    
+    --branco-principal: #FFFFFF;
+    --preto-conteudo: #000000;
+    --cinza-botao: #EFEFEF;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1em 1em 2em;
+}
+
+.botao__principal {
+    padding: 10px 2px;
+    color: var(--branco-principal);
+    background-color: var(--botao-azul);
+    width: 10vw;
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+    text-align: center;
+}
+
+.botao__principal:hover {
+    cursor: pointer;
+	transform: scale(1.02);
+}
+
+.container {
+    margin:  1.3em 0px 0px 3px;
+}
+
+.container_info {
+    text-align: center;
+    background-color: var(--cor-cabecalho);
+    font-size: 20px;
+}
+
+.container_info-titulo {
+    padding: 12px 15px;
+    border: solid 2px var(--branco-principal);
+}
+
+.container_conteudo {
+    color: var(--preto-conteudo);
+    background-color: var(--branco-principal);
+    font-size: 20px;
+}
+
+.container_conteudo-dados {
+    padding: 10px 20px;
+}
+
+.secundario {
+    background-color: var(--cinza-secundario);
+    border: solid 2px var(--branco-principal);
+}
+
+.container_botao {
+    border: solid 1px var(--preto-conteudo);
+    background-color: var(--cinza-botao);
+    border-radius: 3px;
+    padding: 2px 10px;
+}
+
+.container_botao:hover {
+    cursor: pointer;
+	transform: scale(1.02);
+}
